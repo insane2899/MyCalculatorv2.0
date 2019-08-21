@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_weight="4"
+        android:autoText="true"
+        android:gravity="end"
+        android:cursorVisible="true"
+        android:selectAllOnFocus="false" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:layout_gravity="fill"
+        android:layout_weight="6"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/del"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:gravity="center"
+            android:onClick="onClickDel"
+            android:text="@string/DEL" />
+
+        <Button
+            android:id="@+id/AC"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:gravity="center"
+            android:onClick="onClickAC"
+            android:text="@string/AC" />
+
+        <Button
+            android:id="@+id/but_7"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:gravity="center"
+            android:onClick="onClick7"
+            android:text="@string/button_7" />
+
+        <Button
+            android:id="@+id/but_8"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:gravity="center"
+            android:onClick="onClick8"
+            android:text="@string/button_8" />
+
+        <Button
+            android:id="@+id/but_9"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:gravity="center"
+            android:onClick="onClick9"
+            android:text="@string/button_9" />
+
+        <Button
+            android:id="@+id/but_4"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:gravity="center"
+            android:onClick="onClick4"
+            android:text="@string/button_4" />
+
+        <Button
+            android:id="@+id/but_5"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:gravity="center"
+            android:onClick="onClick5"
+            android:text="@string/button_5" />
+
+        <Button
+            android:id="@+id/but_6"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:gravity="center"
+            android:onClick="onClick6"
+            android:text="@string/button_6" />
+
+        <Button
+            android:id="@+id/but_1"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:gravity="center"
+            android:onClick="onClick1"
+            android:text="@string/button_1" />
+
+        <Button
+            android:id="@+id/but_2"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:gravity="center"
+            android:onClick="onClick2"
+            android:text="@string/button_2" />
+
+        <Button
+            android:id="@+id/but_3"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:gravity="center"
+            android:onClick="onClick3"
+            android:text="@string/button_3" />
+
+        <Button
+            android:id="@+id/but_dot"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:gravity="center"
+            android:onClick="onClickDot"
+            android:text="@string/button_dot" />
+
+        <Button
+            android:id="@+id/but_0"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:gravity="center"
+            android:onClick="onClick0"
+            android:text="@string/button_0" />
+
+        <Button
+            android:id="@+id/but_equals"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:gravity="center"
+            android:onClick="onClickEquals"
+            android:text="@string/equals" />
+
+        <Button
+            android:id="@+id/but_add"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:gravity="center"
+            android:onClick="onClickAdd"
+            android:text="@string/Add" />
+
+        <Button
+            android:id="@+id/but_substract"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:gravity="center"
+            android:onClick="onClickSub"
+            android:text="@string/Sub" />
+
+        <Button
+            android:id="@+id/but_multiply"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:gravity="center"
+            android:onClick="onClickMult"
+            android:text="@string/Mult" />
+
+        <Button
+            android:id="@+id/but_divide"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:gravity="center"
+            android:onClick="onClickDiv"
+            android:text="@string/Div" />
+
+        <Button
+            android:id="@+id/but_openparenthesis"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:gravity="center"
+            android:onClick="onClickop"
+            android:text="@string/Open_parenthesis" />
+
+        <Button
+            android:id="@+id/but_closeparenthesis"
+            android:layout_row="6"
+            android:layout_column="2"
+            android:gravity="center"
+            android:onClick="onClickcp"
+            android:text="@string/Close_parenthesis"/>
+    </GridLayout>
+
+</LinearLayout>

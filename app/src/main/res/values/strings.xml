@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyCalculatorv2.0</string>
+    <string name="textView"></string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_0">0</string>
+    <string name="button_dot">.</string>
+    <string name="equals">=</string>
+    <string name="Mult">*</string>
+    <string name="Div">/</string>
+    <string name="Add">+</string>
+    <string name="Sub">-</string>
+    <string name="DEL">DEL</string>
+    <string name="AC">AC</string>
+    <string name="Open_parenthesis">(</string>
+    <string name="Close_parenthesis">)</string>
+</resources>
